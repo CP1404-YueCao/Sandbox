@@ -8,7 +8,7 @@ Password Checker. Created by Yue Cao. 24-11-2021
 def main():
     """Start Program"""
     password = input("Enter a password: ")
-    
+
     if check_password(password):
         print("Logged in!")
     else:
@@ -16,6 +16,7 @@ def main():
 
 
 def check_password(password):
+    """Check if password is valid"""
     return password == "Caoyue0000"
 
 
